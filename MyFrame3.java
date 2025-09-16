@@ -207,13 +207,13 @@ public class MyFrame3 extends JFrame {
 //        container.add(topPanel);
 
         // 第二部分：日历部分
-//        JPanel calendarPanel = new JPanel(new BorderLayout());
-//        calendarPanel.setBackground(Color.WHITE);
-//        JLabel calendarLabel = new JLabel("日历区域", SwingConstants.CENTER);
-//        calendarLabel.setFont(new Font("微软雅黑", Font.PLAIN, 18));
-//        calendarPanel.add(calendarLabel, BorderLayout.CENTER);
-//        calendarPanel.setBorder(BorderFactory.createLineBorder(Color.GRAY, 1));
-//        container.add(calendarPanel);
+        JPanel calendarPanel = new JPanel(new BorderLayout());
+        calendarPanel.setBackground(Color.WHITE);
+        JLabel calendarLabel = new JLabel("日历区域", SwingConstants.CENTER);
+        calendarLabel.setFont(new Font("微软雅黑", Font.PLAIN, 18));
+        calendarPanel.add(calendarLabel, BorderLayout.CENTER);
+        calendarPanel.setBorder(BorderFactory.createLineBorder(Color.GRAY, 1));
+        container.add(calendarPanel);
 
 
 
